@@ -1,0 +1,87 @@
+html {
+    background-color: gray;
+}
+
+body {
+    margin: 0; /* Убираем отступы */
+    padding: 0; /* Убираем внутренние отступы */
+}
+
+/*------------------------------HEADER------------------------------*/
+
+.sectionHeader {
+    display: flex;
+    align-items: center; /* Выравнивает элементы по вертикали */
+    padding: 10px 20px; /* Отступы внутри хедера */
+    background-color: white ; /* Цвет фона */
+    position: relative; /* Для абсолютного позиционирования правого изображения */
+}
+
+.menuLogoHeader{
+    position: absolute; /* Абсолютное позиционирование для центрирования */
+    left: 10%; /* Сдвигаем в центр */
+    transform: translateX(-50%); /* Центрируем по горизонтали */
+}
+
+.menuImagesHeader {
+    margin-left: auto; /* Сдвигает изображение в правый угол */
+    margin-right: 80px; /* Добавляет отступ справа, сдвигая элемент влево */
+}
+
+.imagesHeader {
+    width: 40px;
+}
+
+/*------------------------------MAIN------------------------------*/
+
+.welcomeSlide {
+    display: flex;
+    background-color: #FAFAFC; /* Цвет фона */
+    align-items: center; /* Выравнивает элементы по вертикали */
+    padding: 0px 0px 0px 20px; /* Отступы внутри хедера */
+    position: relative; /* Для абсолютного позиционирования правого изображения */
+}
+
+.welcomeSlideText {
+    background-color: #FAFAFC; /* Цвет фона */
+    flex: 1; /* Занимает доступное пространство */
+    margin-right: 20px; /* Отступ между текстом и изображением */
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+}
+
+/*.welcomeSlideText_text-1 {
+}*/
+
+.welcomeSlideText_text-2 {
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 600;
+    font-family: 'Playfair Display',serif;
+}
+.welcomeSlideText_text-3 {
+    font-weight: 400;
+    font-size: 2rem;    
+    letter-spacing: -1.5px;
+}
+.welcomeSlideText_text-4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color:white;
+    background-color: black;
+    display: inline;
+    padding: 15px 30px 15px 30px; /* Отступ между текстом и изображением */
+
+}
+
+.welcomeSlideImages {
+    background-color: #FAFAFC; /* Цвет фона */
+    padding: 0px 0px 0px 0px; /* Отступы внутри хедера */
+
+
+}
+
+.welcomeImages {
+    width: 1000px; /* Размер изображения */
+    display: block; /* Убираем пробелы под изображением */
+}
