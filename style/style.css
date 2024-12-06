@@ -7,6 +7,10 @@ body {
     padding: 0; /* Убираем внутренние отступы */
 }
 
+a {
+    text-decoration: none; /*  Убираем подчеркивание */
+}
+
 /*------------------------------HEADER------------------------------*/
 
 .sectionHeader {
@@ -46,8 +50,8 @@ body {
     background-color: #FAFAFC; /* Цвет фона */
     flex: 1; /* Занимает доступное пространство */
     margin-right: 20px; /* Отступ между текстом и изображением */
-    text-align: center;
-    font-family: 'Open Sans',sans-serif;
+    text-align: center; /*  Выравнивает текст по центру */
+    font-family: 'Open Sans',sans-serif; /*  Шрифт */
 }
 
 /*.welcomeSlideText_text-1 {
@@ -57,7 +61,7 @@ body {
     font-size: 3rem;
     line-height: 1.1;
     font-weight: 600;
-    font-family: 'Playfair Display',serif;
+    font-family: 'Playfair Display',serif; /*  Шрифт */
 }
 .welcomeSlideText_text-3 {
     font-weight: 400;
@@ -67,9 +71,19 @@ body {
 .welcomeSlideText_text-4 {
     font-size: 1rem;
     font-weight: 700;
-    color:white;
+    color:white; /*  Цвет текста */
     background-color: black;
-    display: inline;
+    display: inline; /*   Отображает текст как inline */
+    padding: 15px 30px 15px 30px; /* Отступ между текстом и изображением */
+
+}
+
+.welcomeSlideText_text-4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color:white; /*  Цвет текста */
+    background-color: black;
+    display: inline; /*   Отображает текст как inline */
     padding: 15px 30px 15px 30px; /* Отступ между текстом и изображением */
 
 }
